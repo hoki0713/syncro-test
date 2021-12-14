@@ -1,0 +1,61 @@
+@import './colors', './mixins';
+
+$body-bg: $bg-gray;
+$body-color: $text-black;
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2.25;
+$h3-font-size: $font-size-base * 1.5;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.btn {
+	min-width: 212px;
+	min-height: 50px;
+	box-shadow: 0 0 0 3px rgba($button-shadow, 0.25);
+
+	&.btn-primary {
+		$primary-button-values: (
+			background: $primary,
+			border: $primary,
+			color: $text-white,
+			hover-background: $text-white,
+		);
+		@include button-variant($primary-button-values...);
+	}
+
+	&.no-border {
+		$no-border-button-values: (
+			background: $primary,
+			border: $text-white,
+			color: $text-white,
+			hover-background: $text-white,
+		);
+		@include button-variant($no-border-button-values...);
+	}
+
+	&.outline {
+		$outline-button-values: (
+			background: $ivory,
+			border: $ivory,
+			color: $text-blue,
+			hover-background: $text-blue,
+		);
+
+		@include button-variant($outline-button-values...);
+	}
+
+	&.link {
+		box-shadow: none;
+		color: $text-blue;
+	}
+
+	&.btn-icon {
+		min-width: fit-content;
+		min-height: fit-content;
+		box-shadow: none;
+	}
+}

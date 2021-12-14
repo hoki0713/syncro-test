@@ -1,0 +1,48 @@
+@import './colors';
+
+@mixin font($size: 1.125rem, $height: 110%, $weight: 400, $margin: 0) {
+	margin: $margin;
+	font: {
+		size: $size;
+		weight: $weight;
+	}
+	line: {
+		height: $height;
+	}
+}
+
+@mixin button-variant(
+	$background,
+	$border,
+	$color,
+	$hover-background: color-contrast($background),
+	$hover-border: color-contrast($border),
+	$hover-color: color-contrast($color)
+) {
+	color: $color;
+	@include gradient-bg($background);
+	border-color: $border;
+	@include box-shadow($btn-box-shadow);
+
+	&:hover {
+		color: $hover-color;
+		@include gradient-bg($hover-background);
+		border-color: $hover-border;
+	}
+
+	.btn-check:focus + &,
+	&:focus {
+		color: $hover-color;
+		@include gradient-bg($hover-background);
+		border-color: $hover-border;
+		@if $enable-shadows {
+			@include box-shadow(
+				$btn-box-shadow,
+				0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), 0.5)
+			);
+		} @else {
+			// Avoid using mixin so we can pass custom focus shadow properly
+			box-shadow: 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), 0.5);
+		}
+	}
+}

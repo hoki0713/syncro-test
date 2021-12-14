@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:se="http://svg-edit.googlecode.com"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:cc="http://creativecommons.org/ns#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ width="777" height="480" style="">
+ <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="#FFFFFF" stroke="none"/>
+ <g class="currentLayer" style="">
+ <title>Layer 1</title>
+ <path fill="none" fill-opacity="1"
+ stroke="#222222" stroke-opacity="1"
+ stroke-width="2" stroke-dasharray="none"
+ stroke-linejoin="round" stroke-linecap="butt"
+ stroke-dashoffset="" fill-rule="nonzero" opacity="1"
+ marker-start="" marker-mid="" marker-end="" id="svg_5"
+  d="M337.4051212065007,158.25640951654458 "
+  tyle="color: rgb(0, 0, 0);"/>
+
+  <path fill="none" fill-opacity="1" stroke="#222222"
+  stroke-opacity="1" stroke-width="2" stroke-dasharray="none"
+  stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset=""
+  fill-rule="nonzero" opacity="1" marker-start="" marker-mid=""
+  marker-end="" id="svg_1"
+  d="M430.73846,118.25641C506.63589,84.92308 560.99486,83.38461 590.22563,157.23077C619.4564,231.07692 579.45641,307.48717 485.61025,333.64102C391.7641,359.79486 265.61025,291.07692 218.43076,263.38461C171.25128,235.6923 137.4002,195.68733 167.14871,150.5641C196.89722,105.44088 262.53334,128 286.12308,131.58974C309.71283,135.17948 354.84103,151.58975 430.73846,118.25641z"
+style="color: rgb(0, 0, 0);" class=""/></g></svg>

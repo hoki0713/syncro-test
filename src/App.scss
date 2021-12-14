@@ -1,0 +1,15 @@
+@import './scss/custom.scss';
+
+.footer {
+	height: 196px;
+	background-image: url('./assets/dna_background\ 2.png');
+	background-size: cover;
+
+	& > div {
+		background: $bg-gradient;
+	}
+}
+
+p {
+	@include font();
+}
