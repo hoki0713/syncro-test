@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/syncro-test/static/css/main.761cf5b3.chunk.css",
+    "main.js": "/syncro-test/static/js/main.d9cd3248.chunk.js",
+    "main.js.map": "/syncro-test/static/js/main.d9cd3248.chunk.js.map",
+    "runtime-main.js": "/syncro-test/static/js/runtime-main.42897b1a.js",
+    "runtime-main.js.map": "/syncro-test/static/js/runtime-main.42897b1a.js.map",
+    "static/js/2.73e3104a.chunk.js": "/syncro-test/static/js/2.73e3104a.chunk.js",
+    "static/js/2.73e3104a.chunk.js.map": "/syncro-test/static/js/2.73e3104a.chunk.js.map",
+    "index.html": "/syncro-test/index.html",
+    "static/css/main.761cf5b3.chunk.css.map": "/syncro-test/static/css/main.761cf5b3.chunk.css.map",
+    "static/js/2.73e3104a.chunk.js.LICENSE.txt": "/syncro-test/static/js/2.73e3104a.chunk.js.LICENSE.txt",
+    "static/media/burger_king_PNG15 1.647fd161.png": "/syncro-test/static/media/burger_king_PNG15 1.647fd161.png",
+    "static/media/burger_king_bg 1.5fb36560.png": "/syncro-test/static/media/burger_king_bg 1.5fb36560.png",
+    "static/media/App.scss": "/syncro-test/static/media/dna_background 2.8c84ce0d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42897b1a.js",
+    "static/js/2.73e3104a.chunk.js",
+    "static/css/main.761cf5b3.chunk.css",
+    "static/js/main.d9cd3248.chunk.js"
+  ]
+}
