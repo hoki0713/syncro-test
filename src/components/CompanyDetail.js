@@ -13,7 +13,7 @@ function CompanyDetail(props) {
 						{companyDataObj.url}
 					</Button>
 					<Button variant="primary" className="col-5 mx-auto">
-						Fler jobb hos Burger King
+						{`Fler jobb hos ${companyDataObj.company}`}
 					</Button>
 				</Col>
 			</Row>

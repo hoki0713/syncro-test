@@ -43,6 +43,7 @@ function App() {
 	};
 
 	const companyData = {
+		company: 'Burger King',
 		about:
 			'Burger King är ett av världens största restaurangföretag. För oss är självklart engagerade, motiverade och trevliga medarbetare nyckeln till vår framgång. Därför värderar vi vår personal högt och erbjuder en tydlig karriärstege med fortbildning och goda utvecklingsmöjligheter.',
 		url: 'www.burgerking.se',
