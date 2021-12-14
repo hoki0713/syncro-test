@@ -16,7 +16,7 @@ function Middle(props) {
 						arbetsplatsens kultur.
 					</p>
 					<ApplyButton className="w-25 m-auto">Ansök Här</ApplyButton>
-					<div className="d-flex justify-content-center gap-5">
+					<div className="d-flex flex-wrap justify-content-center gap-5">
 						<LinkedIn />
 						<Facebook />
 						<Mail />
