@@ -1,28 +1,19 @@
 import { Container } from 'react-bootstrap';
 
+import useMobileStatus from '../../hooks/useMobileStatus';
+
 import JobHeader from './JobHeader';
 import JobDescription from './JobDescription';
-
-import './JobDetail.scss';
 
 function JobDetail(props) {
 	const { jobDataObj } = props;
 
+	const isMobile = useMobileStatus();
+
 	return (
-		<Container className="pt-5 pb-5">
-			<JobHeader
-				companyName={jobDataObj.company}
-				jobTitle={jobDataObj.title}
-				location={jobDataObj.location}
-				jobType={jobDataObj.type}
-				jobPeriod={jobDataObj.period}
-				companyBGImage={jobDataObj.bgImg}
-				companyLogo={jobDataObj.logo}
-			/>
-			<JobDescription
-				jobDescription={jobDataObj.description}
-				className="description"
-			/>
+		<Container className="pt-lg-5 pb-5" fluid={isMobile}>
+			<JobHeader job={jobDataObj} />
+			<JobDescription jobDescription={jobDataObj.description} />
 		</Container>
 	);
 }

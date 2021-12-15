@@ -1,0 +1,17 @@
+@import '../../scss/_mixins.scss';
+
+.description {
+	$font-values: (
+		height: 130%,
+	);
+
+	@include font($font-values...);
+}
+
+.bold {
+	$font-values: (
+		height: 130%,
+		weight: 700,
+	);
+	@include font($font-values...);
+}

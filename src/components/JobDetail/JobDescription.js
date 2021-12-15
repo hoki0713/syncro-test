@@ -1,7 +1,9 @@
 import { Row, Col } from 'react-bootstrap';
 
+import './JobDescriptions.scss';
+
 function JobDescription(props) {
-	const { jobDescription, className } = props;
+	const { jobDescription } = props;
 
 	return (
 		<Row>
@@ -11,7 +13,7 @@ function JobDescription(props) {
 						return (
 							<p
 								key={index}
-								className={`${className} ${
+								className={`description ${
 									paragraph.trim() === 'Övrigt' && 'bold'
 								}`}
 							>

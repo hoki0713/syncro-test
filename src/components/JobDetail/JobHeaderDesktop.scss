@@ -1,0 +1,9 @@
+.top-box {
+	min-height: 412px;
+
+	.buttons {
+		& > button {
+			min-width: 212px;
+		}
+	}
+}
