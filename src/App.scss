@@ -12,4 +12,11 @@
 
 p {
 	@include font();
+
+	@media only screen and (max-width: 992px) {
+		$font-values: (
+			height: 130%,
+		);
+		@include font($font-values...);
+	}
 }
